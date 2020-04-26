@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UIBase
+  m_Shader: {fileID: 4800000, guid: f3c63795f19819a4e805c0c6b3af26d2, type: 3}
+  m_ShaderKeywords: _RimLight _SHOWRIMLIGHT_ON _ShowOutline
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FalloffTex:
+        m_Texture: {fileID: 2800000, guid: bb59c30fce2abf147a41376dfb8e2706, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ba646d1f807fafb4eb1e03909cc14fb3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimMask:
+        m_Texture: {fileID: 2800000, guid: a439db4044621ea45a2c32fa8a684d4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimSampler:
+        m_Texture: {fileID: 2800000, guid: c60ca4d90cc39664db5059d893898ec4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 2800000, guid: ba646d1f807fafb4eb1e03909cc14fb3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - iChannel0:
+        m_Texture: {fileID: 2800000, guid: ba646d1f807fafb4eb1e03909cc14fb3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _AlphaTreshold: 0.852
+    - _Angle: 360
+    - _BlendDstFactor: 10
+    - _BlendSrcFactor: 5
+    - _CheckAccuracy: 0.99
+    - _CheckRange: 1
+    - _ColorMask: 15
+    - _Diff: 1
+    - _DualGrid: 1
+    - _Edge: 0.032
+    - _EdgeAlphaThreshold: -0.95
+    - _EdgeDampRate: 0.55
+    - _EdgeFactor: 0
+    - _EdgeWidth: 3.84
+    - _FlowSpeed: 5.1
+    - _Gradient: 1
+    - _InnerGlowAccuracy: 2.54
+    - _InnerGlowAlphaSumThreshold: 0.8
+    - _InnerGlowLerpRate: 0.555
+    - _InnerGlowWidth: 0.1
+    - _IntersectionPower: 0
+    - _LineWidth: 15.34
+    - _OffsetUV: 0.994
+    - _OriginAlphaThreshold: 1
+    - _OutLightPow: 3.65
+    - _OutLightStrength: 2.91
+    - _OutlineWidth: -1.01
+    - _RimAlphaThreshold: -0.95
+    - _RimDampRate: 0.55
+    - _RimFog: 1
+    - _RimFogDetailFactor: 1
+    - _RimFogHeightEnd: 40
+    - _RimFogHeightStart: 0
+    - _RimPower: 0.000001
+    - _RimSpeed: -0.3
+    - _RimWidth: 1.13
+    - _ShowInnerGlow: 0
+    - _ShowOutline: 1
+    - _ShowRimLight: 1
+    - _Size: -0.21
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _AtmoColor: {r: 0.94509804, g: 0.8509804, b: 0.62352943, a: 1}
+    - _Color: {r: 0.94509804, g: 0.8509804, b: 0.62352943, a: 1}
+    - _Diffuse: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _InnerGlowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - iChannelResolution0: {r: 0, g: 0, b: 0, a: 0}
+    - iMouse: {r: 0, g: 0, b: 0, a: 0}
